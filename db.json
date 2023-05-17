@@ -1,9 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "pritam@gmail.com",
+      "password": "pritam",
+      "username": "pritam",
+      "id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "movies": [
+    {
+      "poster": "new",
+      "title": "new",
+      "director": "askd",
+      "year": "2023",
+      "genre": "Romance",
+      "imdb": "10",
+      "ticket": "21312",
+      "id": 3
+    },
+    {
+      "poster": "asd",
+      "title": "asds",
+      "director": "w",
+      "year": 2023,
+      "genre": "Comedy",
+      "imdb": 10,
+      "ticket": "22",
+      "id": 4
+    }
+  ]
 }
